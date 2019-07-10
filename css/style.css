@@ -1,0 +1,43 @@
+
+.back{
+  background-image: url('../img/foto-top.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foto-2{
+  background-image: url('../img/f-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar-brand {
+
+    padding-top: .105rem;
+    padding-bottom: .105rem;
+
+}
+.navbar {
+    padding: .2rem 1rem;
+}
+.phone-1{
+padding-top:50px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 85px;
+    color: white;
+    padding-top: 25px;
+}
+p {
+    color: white;
+    font-weight: 500;
+}
+.order-sn{
+           order: 1;
+       }
+.order-sm{
+           order: -1;
+       }
