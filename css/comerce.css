@@ -4,6 +4,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* estilos de ancho del navbar */
+.navbar-brand {
+  padding-top: .105rem;
+  padding-bottom: .105rem;
+}
+
+.navbar {
+  padding: .2rem 1rem;
+}
+/* efectos en el nav */
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+li.nav-item:hover {
+  border-top: 3px solid white;
+}
+
+a.nav-link {
+  padding: 20px;
+}
 /* ................................ */
 /*estilo de menu hamburguesa  */
 .navbar-light .navbar-toggler {
