@@ -1,0 +1,50 @@
+@media screen and (max-width:429px) {
+  .sectio-tem {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 35px;
+    color: white;
+    padding-top: 25px;
+  }
+
+  .section-p {
+    color: white;
+    font-weight: 500;
+  }
+
+  .text-c {
+    color: #1335B9;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+  }
+
+  .navbar {
+    display: block;
+    padding: 60px 0px;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .col-md-8 {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width:360px) {
+
+  /* button form */
+  .btn {
+    padding: .75rem 2rem;
+  }
+}
+
+@media screen and (max-width:329px) {
+  button .navbar-toggler {
+    margin-top: 5px;
+  }
+}
