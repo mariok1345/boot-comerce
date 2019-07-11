@@ -118,13 +118,13 @@
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 @font-face {
-  font-family: 'navbar-toggler-icon';
-  src: url('../font/navbar-toggler-icon.eot?58990357');
-  src: url('../font/navbar-toggler-icon.eot?58990357#iefix') format('embedded-opentype'),
-       url('../font/navbar-toggler-icon.woff2?58990357') format('woff2'),
-       url('../font/navbar-toggler-icon.woff?58990357') format('woff'),
-       url('../font/navbar-toggler-icon.ttf?58990357') format('truetype'),
-       url('../font/navbar-toggler-icon.svg?58990357#navbar-toggler-icon') format('svg');
+  font-family: 'navbar-ico';
+  src: url('../font/navbar-ico.eot?57511364');
+  src: url('../font/navbar-ico.eot?57511364#iefix') format('embedded-opentype'),
+       url('../font/navbar-ico.woff2?57511364') format('woff2'),
+       url('../font/navbar-ico.woff?57511364') format('woff'),
+       url('../font/navbar-ico.ttf?57511364') format('truetype'),
+       url('../font/navbar-ico.svg?57511364#navbar-ico') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -133,14 +133,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'navbar-toggler-icon';
-    src: url('../font/navbar-toggler-icon.svg?58990357#navbar-toggler-icon') format('svg');
+    font-family: 'navbar-ico';
+    src: url('../font/navbar-ico.svg?57511364#navbar-ico') format('svg');
   }
 }
 */
 
- [class^="navbar-m"]:before, [class*=" navbar-m"]:before {
-  font-family: "navbar-toggler-icon";
+ [class^="nab"]:before, [class*=" nab"]:before {
+  font-family: "navbar-ico";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -174,4 +174,4 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.navbar-m-toggler-icon:before { content: '\e800'; } /* '' */
+.nab-icono:before { content: '\f0c9'; } /* '' */

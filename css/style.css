@@ -144,7 +144,7 @@ a.nav-link {
   padding: .45rem .75rem;
 }
 
-.navbar-m-toggler-icon {
+.nab-icono {
   color: #88D65C;
 }
 
@@ -152,7 +152,7 @@ a.nav-link {
   background: #88D65C;
 }
 
-.navbar-m-toggler-icon:hover {
+.nab-icono:hover {
   color: #1D42B1;
 }
 

@@ -1,0 +1,39 @@
+@media screen and (max-width:768px){
+  .foto-2 {
+    background-image: url('../img/i-background.png');
+
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    z-index:1;
+    display: flex;
+
+  }
+}
+@media screen and (max-width:429px) {
+
+  .navbar {
+    display: block;
+    padding: 60px 0px;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width:360px) {
+
+  /* button form */
+  .btn {
+    padding: .75rem 2rem;
+  }
+}
+
+@media screen and (max-width:329px) {
+  button .navbar-toggler {
+    margin-top: 5px;
+  }
+}

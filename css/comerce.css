@@ -1,0 +1,83 @@
+/* estilos navbar */
+.back {
+  background-image: url('../img/foto-top.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ................................ */
+/*estilo de menu hamburguesa  */
+.navbar-light .navbar-toggler {
+  border-color: #88D65C;
+  padding: .45rem .75rem;
+}
+
+.nab-icono {
+  color: #88D65C;
+}
+
+.navbar-light .navbar-toggler:hover {
+  background: #88D65C;
+}
+
+.nab-icono:hover {
+  color: #1D42B1;
+}
+/* background hero */
+.foto-2 {
+  background-image: url('../img/i-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:90vh;
+  position: relative;
+  z-index:1;
+  display: flex;
+}
+
+.foto-2::after{
+  position:absolute;
+  content: '';
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image: url('../img/b-after.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
+}
+/* parrafo de hero */
+.p-hero{
+
+font-family:' Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+
+}
+/* color de primer div de contenido */
+.foto-3{
+  background:#EEF2F6;
+}
+/*segundo contenedor de citas  centraer*/
+.con-citas{
+  display:flex;
+  justify-content: center;
+}
+/* primer tema */
+.tem-1{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 48px;
+  color: #1D42B1;
+
+}
+/* segundo tema */
+
+/* quitar padding a div */
+.col-lg-4{
+  padding-left: 0px;
+}
