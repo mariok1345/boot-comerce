@@ -10,6 +10,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* alinear contenido de los divs de informacion */
+.ali-co{
+  display:flex;
+  align-items: center;
+
+}
 
 .foto-3, .foto-5 {
   background: #1638B8;
@@ -18,7 +24,7 @@
 .foto-4 {
   background: #88D65C;
 }
-
+/* estilos de ancho del navbar */
 .navbar-brand {
   padding-top: .105rem;
   padding-bottom: .105rem;
@@ -173,4 +179,7 @@ a.nav-link {
 /* footer */
 .footer{
   background: #111111;
+}
+.iconos{
+  display: flex;
 }

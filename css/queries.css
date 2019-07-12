@@ -1,3 +1,9 @@
+@media screen and (max-width:576px){
+  .cont-footer-1{
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (max-width:429px) {
   .sectio-tem {
     font-style: normal;
@@ -33,6 +39,7 @@
   .col-md-8 {
     padding: 0px;
   }
+
 }
 
 @media screen and (max-width:360px) {
