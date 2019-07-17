@@ -85,11 +85,25 @@ color: #FFFFFF;
 .foto-3{
   background:#EEF2F6;
 }
+/* tercer divs de reporteria */
+.foto-5{
+  background: #1335B9;
+}
+/* ultimo divs de planes */
+.foto-6{
+  background:  #000D44;
+}
 /*segundo contenedor de citas  centraer*/
 .con-citas{
   display:flex;
   justify-content: center;
 }
+/* tercer contenedor de reportes */
+.con-repo{
+  display:flex;
+  justify-content: center;
+}
+
 /* primer tema */
 .tem-1{
   font-family: Open Sans;
@@ -105,4 +119,39 @@ color: #FFFFFF;
 /* quitar padding a div */
 .col-lg-4{
   padding-left: 0px;
+}
+
+/* form */
+form {
+  background: white;
+  padding: 50px 20px;
+}
+
+/* label */
+label {
+  color: #1335B9;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* input */
+.form-control {
+  border: 0px;
+  border-radius: .0rem;
+  padding: .375rem .75rem;
+  border-bottom: 1px solid #ced4da;
+}
+/* button form */
+.btn-primary {
+    color: #fff;
+    background-color:#1335B9;;
+    border-color:#1335B9;;
+}
+
+/* footer */
+.footer{
+  background: #111111;
+}
+.iconos{
+  display: flex;
 }

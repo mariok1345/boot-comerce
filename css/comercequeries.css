@@ -1,3 +1,8 @@
+@media screen and (max-width:992px){
+  .navbar-nav{
+    text-align: center;
+  }
+}
 @media screen and (max-width:768px){
   .foto-2 {
     background-image: url('../img/i-background.png');
@@ -8,6 +13,12 @@
     z-index:1;
     display: flex;
 
+  }
+}
+@media screen and (max-width:576px){
+  .cont-footer-1{
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width:429px) {
